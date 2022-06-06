@@ -79,6 +79,6 @@ jobs:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
-          TEST_ENV: 'prod',
-          TEST_BASE_URL: 'https://vpn.mozilla.org',
-          TEST_EXPECT_URL: 'https://www.mozilla.org',
+          TEST_ENV: 'prod'
+          TEST_BASE_URL: 'https://vpn.mozilla.org'
+          TEST_EXPECT_URL: 'https://www.mozilla.org'
