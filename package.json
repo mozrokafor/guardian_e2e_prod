@@ -1,0 +1,31 @@
+{
+  "name": "guardian-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:update": "npx playwright test --update-snapshots",
+    "test:debug": "PWDEBUG=1 DEBUG=pw:api npm run test",
+    "test:inspect": "npx playwright test --debug",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.20.1",
+    "allure-commandline": "^2.17.2",
+    "allure-playwright": "^2.0.0-beta.16"
+  },
+  "dependencies": {
+    "axe-playwright": "^1.1.11",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
