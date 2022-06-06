@@ -1,4 +1,4 @@
-name: guardian-bedrock-e2e
+name: guardian-bedrock-e2e-prod
 
 on:
   schedule:
